@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+
+    tools:context="com.example.deepakraoj.bluetooth_communication.MainActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_weight="1"
+        android:layout_height="0dp">
+
+        <TextView
+            android:id="@+id/tex"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:text=" " />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/editText" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:text="Connect"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/con" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+
+        <Button
+            android:text="Send"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:id="@+id/send" />
+    </LinearLayout>
+</LinearLayout>
